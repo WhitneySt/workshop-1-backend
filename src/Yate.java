@@ -22,4 +22,13 @@ public class Yate extends Embarcacion{
     public Boolean esComprable(){
         return true;
     }
+
+    @Override
+    public String toString(){
+        String esLujoso = esLujoso() ? " ": "No ";
+        String esComprable = esComprable()? " ": "No ";
+
+        return "El yate" +esLujoso+"es lujoso y"+esComprable+"es comprable";
+
+    }
 }

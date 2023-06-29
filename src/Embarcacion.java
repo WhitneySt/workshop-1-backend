@@ -2,8 +2,8 @@ public abstract class Embarcacion {
     private Capitan capitan;
     private double precioBase;
     private double valorAdicional;
-    private int anioFabricacion;
-    private double eslora;
+    private final int anioFabricacion;
+    private final double eslora;
 
     Embarcacion(Capitan capitan, double precioBase, int anioFabricacion, double eslora){
         this.capitan = capitan;

@@ -8,6 +8,11 @@ public class Main {
         //Mostrar monto de alquiler
         System.out.println("Yate: ");
         System.out.println("Monto del alquiler " + lujoso.calcularMontoAlquiler());
-        System.out.println("El yate "+ lujoso.esComprable()  + " se puede comprar");
+        System.out.println(lujoso);
+        System.out.println("-----------------------");
+        System.out.println("Velero: ");
+        System.out.println("Monto del alquiler " + pequeno.calcularMontoAlquiler());
+        System.out.println(pequeno);
+
     }
 }

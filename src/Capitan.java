@@ -1,7 +1,7 @@
 public class Capitan {
-    private String nombre;
-    private String apellido;
-    private String matricula;
+    private final String nombre;
+    private final String apellido;
+    private final String matricula;
 
     public Capitan(String nombre, String apellido, String matricula){
         this.nombre = nombre;
